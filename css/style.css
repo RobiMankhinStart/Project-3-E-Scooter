@@ -1,0 +1,116 @@
+/* ..........font links start........... */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* ..........font links end........... */
+
+/* ..........common css start........... */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+/* ..........common css end........... */
+
+/* ..........variable start........... */
+:root {
+  --BrandColor: #42454a;
+  --BrandFont: "Ubuntu", sans-serif;
+}
+/* ..........variable end..........
+
+/* ..........navbar start........... */
+.main_nav {
+  padding: 26px 0;
+  border: 1px solid #eae8f3;
+}
+.main_nav .logo_img {
+  width: 70px;
+}
+.main_nav .nav_menus ul {
+  gap: 78px;
+}
+.main_nav .nav_menus ul li a {
+  padding: 0 !important;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+}
+.nav_menus .menu_buttons {
+  display: flex;
+  gap: 24px;
+}
+.nav_menus .menu_buttons .sign_in {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  width: 102px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: var(--BrandColor);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s linear;
+}
+.nav_menus .menu_buttons .sign_in:hover {
+  box-shadow: -3px 9px 16px 1px rgba(66, 69, 74, 0.75);
+  color: var(--BrandColor);
+  background-color: #ffffff;
+}
+.nav_menus .menu_buttons .sign_up {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  width: 106px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: var(--BrandColor);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s linear;
+}
+.nav_menus .menu_buttons .sign_up:hover {
+  box-shadow: -3px 9px 16px 1px rgba(66, 69, 74, 0.75);
+  color: var(--BrandColor);
+  background-color: #ffffff;
+}
+/* ..........navbar end........... */
+/* ..........font links start........... */
+/* ..........font links end........... */
+/* ..........font links start........... */
+/* ..........font links end........... */
+/* ..........font links start........... */
+/* ..........font links end........... */
+/* ..........font links start........... */
+/* ..........font links end........... */
+/* ..........font links start........... */
+/* ..........font links end........... */
+/* ..........font links start........... */
+/* ..........font links end........... */
