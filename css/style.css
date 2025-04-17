@@ -59,6 +59,9 @@ img {
   font-weight: 400;
   font-family: var(--BrandFont);
 }
+.nav_options {
+  padding-bottom: 9px;
+}
 .nav_menus .menu_buttons {
   display: flex;
   gap: 24px;
@@ -102,8 +105,122 @@ img {
   background-color: #ffffff;
 }
 /* ..........navbar end........... */
-/* ..........font links start........... */
-/* ..........font links end........... */
+
+/* ..........banner start........... */
+#banner {
+  padding-top: 84px;
+}
+.banner_div h1 {
+  width: 570px;
+  font-size: 90px;
+  font-weight: 300;
+  font-family: var(--BrandFont);
+  text-transform: uppercase;
+}
+.banner_div h1 span {
+  font-size: 90px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+}
+.borderBar {
+  margin-top: 93px;
+  margin-bottom: 62px;
+  width: 335px;
+  height: 4px;
+  background-color: var(--BrandColor);
+}
+.banner_div p {
+  width: 353px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+}
+.banner_bottom_side {
+  display: flex;
+  gap: 79px;
+  margin-top: 62px;
+  align-items: center;
+}
+/* From Uiverse.io by Creatlydev */
+.button {
+  width: 162px;
+  text-decoration: none;
+  line-height: 1;
+  /* border-radius: 1.5rem; */
+  overflow: hidden;
+  position: relative;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  color: #121212;
+  border: none;
+  cursor: pointer;
+}
+
+.button-decor {
+  position: absolute;
+  inset: 0;
+  background-color: var(--clr);
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  z-index: 0;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+
+.button__icon {
+  width: 48px;
+  height: 40px;
+  background-color: #c6c7c9;
+  display: grid;
+  place-items: center;
+}
+
+.button__text {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--BrandFont);
+  color: #17181a;
+  display: inline-block;
+  transition: color 0.2s;
+  padding: 2px 1.5rem 2px;
+  padding-left: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.button:hover .button__text {
+  color: #fff;
+}
+
+.button:hover .button-decor {
+  transform: translate(0);
+}
+
+.banner_bottom_side .watch_videos {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  width: 188px;
+}
+.banner_bottom_side .watch_videos .left {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--BrandFont);
+  width: 87px;
+  color: #414449;
+}
+.banner_bottom_side .watch_videos .right {
+  width: 80px;
+}
+/* ..........banner end........... */
 /* ..........font links start........... */
 /* ..........font links end........... */
 /* ..........font links start........... */
