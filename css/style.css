@@ -140,13 +140,13 @@ img {
   gap: 79px;
   margin-top: 62px;
   align-items: center;
+  margin-bottom: 209px;
 }
 /* From Uiverse.io by Creatlydev */
 .button {
   width: 162px;
+  height: 58px;
   text-decoration: none;
-  line-height: 1;
-  /* border-radius: 1.5rem; */
   overflow: hidden;
   position: relative;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
@@ -159,8 +159,8 @@ img {
 .button-decor {
   position: absolute;
   inset: 0;
-  background-color: var(--clr);
-  transform: translateX(-100%);
+  background-color: #c6c7c9;
+  transform: translateX(-105%);
   transition: transform 0.3s;
   z-index: 0;
 }
@@ -174,22 +174,25 @@ img {
 }
 
 .button__icon {
-  width: 48px;
-  height: 40px;
+  font-size: 25px;
+  width: 58px;
+  height: 58px;
+  color: #f7eae3;
   background-color: #c6c7c9;
   display: grid;
   place-items: center;
 }
 
 .button__text {
+  margin-left: 12px;
   font-size: 20px;
   font-weight: 500;
   font-family: var(--BrandFont);
   color: #17181a;
   display: inline-block;
   transition: color 0.2s;
-  padding: 2px 1.5rem 2px;
-  padding-left: 0.75rem;
+  /* padding: 2px 1.5rem 2px; */
+  /* padding-left: 0.75rem; */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
