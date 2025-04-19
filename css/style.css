@@ -109,6 +109,7 @@ img {
 /* ..........banner start........... */
 #banner {
   padding-top: 84px;
+  position: relative;
 }
 .banner_div h1 {
   width: 570px;
@@ -212,6 +213,7 @@ img {
   gap: 21px;
   align-items: center;
   width: 188px;
+  position: relative;
 }
 .banner_bottom_side .watch_videos .left {
   font-size: 18px;
@@ -222,12 +224,148 @@ img {
 }
 .banner_bottom_side .watch_videos .right {
   width: 80px;
+  animation: rotate infinite linear 4s;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.watch_videos .play_mid_button {
+  width: 15px;
+  position: absolute;
+  right: 32px;
+  top: 27px;
+  z-index: 10;
+}
+.banner_image {
+  width: 856px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /* ..........banner end........... */
-/* ..........font links start........... */
-/* ..........font links end........... */
-/* ..........font links start........... */
-/* ..........font links end........... */
+
+/* ..............counter part end..........   */
+#counter {
+  padding-bottom: 127px;
+}
+.counter_single_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  width: 174px;
+  border-radius: 7px;
+  padding: 30px 35px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.counter_single_box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+}
+.counter_single_box h3 span {
+  font-size: 40px;
+  margin-right: 12px;
+}
+.counter_single_box p {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+}
+
+.counter_single_box .last_two span {
+  margin-right: 0;
+}
+.last_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  width: 174px;
+  border-radius: 7px;
+  padding: 30px 26px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.last_box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+}
+.last_box h3 span {
+  font-size: 40px;
+  margin-right: 12px;
+}
+.last_box p {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+}
+
+.last_box .last_two span {
+  margin-right: 0;
+}
+/* ..............counter part end..........   */
+/* ...............Product_Information start.....  */
+.head {
+  text-align: center;
+}
+.head h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+  margin-bottom: 34px;
+}
+.head p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  margin-bottom: 32px;
+}
+.discription_div {
+  justify-content: center;
+  gap: 177px;
+}
+
+.bike_img {
+  width: 748px;
+}
+.discription {
+  width: 464px;
+  margin-top: 143px;
+  margin-left: 177px;
+}
+/* ...............Product_Information end.....  */
+
+/* ..........Efficiency start........... */
+.Efficiency_head {
+  text-align: center;
+}
+.Efficiency_head h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+  margin-bottom: 34px;
+}
+.Efficiency_head p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  margin-bottom: 32px;
+}
+Efficiency_pic {
+  width: 1335px;
+  margin-bottom: 315px;
+}
+/* ..........Efficiency end........... */
 /* ..........font links start........... */
 /* ..........font links end........... */
 /* ..........font links start........... */
