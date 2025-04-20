@@ -315,6 +315,9 @@ img {
 }
 /* ..............counter part end..........   */
 /* ...............Product_Information start.....  */
+#Product_Information {
+}
+
 .head {
   text-align: center;
 }
@@ -330,18 +333,25 @@ img {
   font-family: var(--BrandFont);
   margin-bottom: 32px;
 }
-.discription_div {
-  justify-content: center;
-  gap: 177px;
-}
 
-.bike_img {
-  width: 748px;
+.right_side {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
 }
 .discription {
-  width: 464px;
-  margin-top: 143px;
-  margin-left: 177px;
+  display: flex;
+  gap: 18px;
+}
+.discription .tik {
+  width: 49px;
+}
+.discription .points {
+  font-size: 20;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
 }
 /* ...............Product_Information end.....  */
 
@@ -361,9 +371,9 @@ img {
   font-family: var(--BrandFont);
   margin-bottom: 32px;
 }
-Efficiency_pic {
+.Efficiency_pic {
   width: 1335px;
-  margin-bottom: 315px;
+  margin-bottom: 155px;
 }
 /* ..........Efficiency end........... */
 /* ..........font links start........... */
