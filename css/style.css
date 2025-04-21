@@ -315,19 +315,17 @@ img {
 }
 /* ..............counter part end..........   */
 /* ...............Product_Information start.....  */
-#Product_Information {
-}
 
-.head {
+.common_head {
   text-align: center;
 }
-.head h2 {
+.common_head h2 {
   font-size: 50px;
   font-weight: 700;
   font-family: var(--BrandFont);
   margin-bottom: 34px;
 }
-.head p {
+.common_head p {
   font-size: 20px;
   font-weight: 400;
   font-family: var(--BrandFont);
@@ -348,7 +346,7 @@ img {
   width: 49px;
 }
 .discription .points {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 400;
   font-family: var(--BrandFont);
   color: var(--BrandColor);
@@ -356,29 +354,186 @@ img {
 /* ...............Product_Information end.....  */
 
 /* ..........Efficiency start........... */
-.Efficiency_head {
+.common_head {
   text-align: center;
 }
-.Efficiency_head h2 {
+/* .common_head h2 {
   font-size: 50px;
   font-weight: 700;
   font-family: var(--BrandFont);
   margin-bottom: 34px;
-}
-.Efficiency_head p {
+} */
+/* .common_head p {
   font-size: 20px;
   font-weight: 400;
   font-family: var(--BrandFont);
   margin-bottom: 32px;
-}
+} */
 .Efficiency_pic {
   width: 1335px;
   margin-bottom: 155px;
 }
 /* ..........Efficiency end........... */
-/* ..........font links start........... */
-/* ..........font links end........... */
-/* ..........font links start........... */
-/* ..........font links end........... */
-/* ..........font links start........... */
-/* ..........font links end........... */
+/* ..........Accessories start........... */
+.Golf_bag_div .Golf_bag_head {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+  margin-top: 160px;
+  margin-bottom: 33px;
+}
+.Golf_bag_details_div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 33px;
+}
+.Golf_bag_details {
+  display: flex;
+  gap: 18px;
+}
+.Golf_bag_details .tik {
+  width: 49px;
+}
+.Golf_bag_details .points {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  padding-top: 14px;
+}
+.accessoriesImages {
+  margin-top: 150px;
+  display: flex;
+}
+
+/* ..........Accessories end........... */
+/* ..........Shopping_Rack start........... */
+#Shopping_Rack {
+  position: relative;
+}
+.Shopping_Rack_images {
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+}
+.Shopping_Rack_images .imgOne {
+  width: 472px;
+  position: absolute;
+  left: 0;
+  top: 120px;
+}
+.Shopping_Rack_images .imgTwo {
+  width: 240px;
+  margin-top: 264px;
+}
+.comming_soon {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 570px;
+  height: 94px;
+  border-radius: 10px;
+  border: 2px solid var(--BrandColor);
+  margin: 0 auto;
+  margin-top: 74px;
+}
+/* ..........Shopping_Rack end........... */
+
+/* ..........Gallery start........... */
+#Gallery {
+  padding-top: 127px;
+}
+.scooterImg {
+  margin-top: 270px;
+}
+.scooterButtons {
+  display: flex;
+  flex-direction: column;
+}
+.gallary_buttons {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 570px;
+  height: 94px;
+  border-radius: 10px;
+  border: 2px solid var(--BrandColor);
+  margin-top: 27px;
+}
+.build_qualityImg {
+  margin-top: 70px;
+  margin-bottom: 96px;
+}
+
+/* ..........Gallery end........... */
+
+/* ..........Colors start........... */
+#colors {
+  padding-top: 128px;
+  padding-bottom: 150px;
+}
+.colorsDiv {
+  position: relative;
+}
+.sliderNavOptions {
+  position: absolute;
+  top: 720px;
+}
+
+/* ..........Colors end........... */
+/* ..........Testimonials start........... */
+#Testimonials {
+  padding-top: 78px;
+  padding-bottom: 121px;
+  background-color: #fafafa;
+}
+.Testimonials_card_img {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 47px;
+}
+.card_top .stars {
+  width: 96px;
+}
+.profilePic {
+  width: 48px;
+}
+.cardBot {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.name h2 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+}
+.name p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  color: var(--BrandColor);
+}
+/* ..........Testimonials end........... */
