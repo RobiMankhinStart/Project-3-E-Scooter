@@ -1,0 +1,33 @@
+/* ..........................for SM device...............................  */
+
+@media (max-width: 575.98px) {
+  /* ...........navbar part starting.........  */
+  .main_nav .logo_img {
+    width: 52px;
+  }
+  .fa-solid,
+  .fas {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .nav_menus {
+    margin-top: 25px;
+  }
+  .main_nav .nav_menus ul {
+    gap: 48px;
+    align-items: center;
+  }
+  .nav_menus .menu_buttons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .nav_menus .menu_buttons .sign_in {
+    width: 107px;
+    height: 44px;
+  }
+  .nav_menus .menu_buttons .sign_up {
+    width: 107px;
+    height: 44px;
+  }
+  /* ...........navbar part ending.........  */
+}

@@ -58,6 +58,20 @@ img {
   font-size: 14px;
   font-weight: 400;
   font-family: var(--BrandFont);
+  position: relative;
+}
+.main_nav .nav_menus ul li a::after {
+  content: "";
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: var(--BrandColor);
+  height: 2px;
+  transition: all 0.3s linear;
+}
+.main_nav .nav_menus ul li a:hover::after {
+  width: 100%;
 }
 .nav_options {
   padding-bottom: 9px;
