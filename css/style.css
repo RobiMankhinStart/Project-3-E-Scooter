@@ -441,6 +441,12 @@ img {
   border: 2px solid var(--BrandColor);
   margin: 0 auto;
   margin-top: 74px;
+  transition: all 0.4s linear;
+}
+.comming_soon:hover {
+  background-color: var(--BrandColor);
+  color: #ffffff;
+  transform: scale(105%);
 }
 /* ..........Shopping_Rack end........... */
 
@@ -491,6 +497,9 @@ img {
   width: 100%;
   position: absolute;
   bottom: -235px;
+}
+.sliderNavOptions .slider_nav_pic {
+  width: 246px;
 }
 
 /* ..........Colors end........... */
