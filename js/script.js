@@ -29,5 +29,7 @@ $(".center").slick({
   centerMode: true,
   centerPadding: "60px",
   slidesToShow: 3,
-  arrows: true,
+  //   arrows: true,
+  prevArrow: '<i class="fa-solid arr prevArr fa-arrow-left"></i>',
+  nextArrow: '<i class="fa-solid arr nextArr fa-arrow-right"></i>',
 });

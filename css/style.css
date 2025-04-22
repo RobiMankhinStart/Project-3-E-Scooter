@@ -1,5 +1,5 @@
 /* ..........font links start........... */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /* ..........font links end........... */
 
 /* ..........common css start........... */
@@ -468,39 +468,48 @@ img {
   border-radius: 10px;
   border: 2px solid var(--BrandColor);
   margin-top: 27px;
+  transition: all 0.6s linear;
+}
+.gallary_buttons:hover {
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
 .build_qualityImg {
   margin-top: 70px;
   margin-bottom: 96px;
 }
-
 /* ..........Gallery end........... */
 
 /* ..........Colors start........... */
 #colors {
   padding-top: 128px;
-  padding-bottom: 150px;
+  padding-bottom: 382px;
 }
 .colorsDiv {
   position: relative;
 }
 .sliderNavOptions {
+  width: 100%;
   position: absolute;
-  top: 720px;
+  bottom: -235px;
 }
 
 /* ..........Colors end........... */
 /* ..........Testimonials start........... */
 #Testimonials {
   padding-top: 78px;
-  padding-bottom: 121px;
+  padding-bottom: 167px;
   background-color: #fafafa;
 }
+
 .Testimonials_card_img {
+  width: 360px;
+  height: 366px;
+  padding: 53px 22px;
   display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1px solid #d8d8d8;
 }
 .card_top {
   display: flex;
@@ -536,4 +545,148 @@ img {
   font-family: var(--BrandFont);
   color: var(--BrandColor);
 }
+.card_top .star {
+  width: 17px;
+}
+.card_top p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  /* width: 304px; */
+}
+.star_div {
+  display: flex;
+  margin-bottom: 26px;
+}
+.card_img_div {
+  position: relative;
+}
+.arr {
+  padding-top: 4px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--BrandColor);
+  color: var(--BrandColor);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s linear;
+  position: absolute;
+}
+.arr:hover {
+  background-color: var(--BrandColor);
+  color: #fafafa;
+}
+.prevArr {
+  top: 440px;
+  left: 46%;
+}
+.nextArr {
+  top: 440px;
+  right: 46%;
+}
 /* ..........Testimonials end........... */
+/* ..........Subscribe start........... */
+#Subscribe {
+  padding-top: 121px;
+  padding-bottom: 127px;
+}
+.subInputButton {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.subInputButton input {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  background-color: #f5f5f5;
+  width: 400px;
+  display: flex;
+  border: none;
+  padding: 26px 0;
+  padding-left: 38px;
+  border-radius: 10px;
+}
+.subInputButton button {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  color: #fbfbfb;
+  background-color: var(--BrandColor);
+  width: 196px;
+  display: flex;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 26px 57; */
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+.subInputButton button:hover {
+  background-color: #fbfbfb;
+  color: var(--BrandColor);
+  border: 1px solid var(--BrandColor);
+}
+/* ..........Subscribe end........... */
+/* ..........Footer start........... */
+#footer {
+  padding-top: 99px;
+  padding-bottom: 20px;
+  background-color: var(--BrandColor);
+  position: relative;
+}
+.footer_bg {
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+}
+.footer_options_div {
+  display: flex;
+  justify-content: end;
+  gap: 105px;
+}
+.aboutDiv h2 {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: var(--BrandFont);
+  color: #fbfbfb;
+}
+.aboutDiv .about_bot_options {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 50px;
+}
+.aboutDiv .about_bot_options p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--BrandFont);
+  color: #fbfbfb;
+}
+.FootericonsDiv {
+  display: flex;
+  gap: 16px;
+  margin-top: 43px;
+}
+.FootericonsDiv .social_icon {
+  width: 32px;
+  height: 32px;
+  color: var(--BrandColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafc;
+  border-radius: 50%;
+}
+.copyRightMessage {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #fbfbfb;
+  text-align: center;
+  margin-top: 100px;
+}
+/* ..........Footer end........... */
