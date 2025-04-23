@@ -368,21 +368,13 @@ img {
 /* ...............Product_Information end.....  */
 
 /* ..........Efficiency start........... */
+#Efficiency {
+  padding-top: 126px;
+}
 .common_head {
   text-align: center;
 }
-/* .common_head h2 {
-  font-size: 50px;
-  font-weight: 700;
-  font-family: var(--BrandFont);
-  margin-bottom: 34px;
-} */
-/* .common_head p {
-  font-size: 20px;
-  font-weight: 400;
-  font-family: var(--BrandFont);
-  margin-bottom: 32px;
-} */
+
 .Efficiency_pic {
   width: 1335px;
   margin-bottom: 155px;
