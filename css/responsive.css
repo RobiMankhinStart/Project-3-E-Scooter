@@ -30,4 +30,1027 @@
     height: 44px;
   }
   /* ...........navbar part ending.........  */
+
+  /* ...........banner part starting.........  */
+  #banner {
+    padding-top: 330px;
+  }
+  .banner_image {
+    display: none;
+  }
+  .xm_banner_image {
+    display: block;
+    position: absolute;
+    top: 10px;
+  }
+  .banner_div {
+    margin-top: 20%;
+  }
+  .banner_div h1 {
+    width: 100%;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .banner_div h1 span {
+    font-size: 48px;
+    display: block;
+  }
+  .borderBar {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .banner_div p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .banner_bottom_side {
+    gap: 40px;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 28px;
+  }
+  .button {
+    width: 194px;
+    border-radius: 12px;
+  }
+  .banner_bottom_side .watch_videos {
+    gap: 46px;
+    width: 212px;
+  }
+  /* ...........banner part ending.........*/
+
+  /* ...........counter part starting.........*/
+  #counter {
+    padding-bottom: 56px;
+  }
+  .counter_single_box {
+    width: 90%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  .last_box {
+    width: 90%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  /* ...........counter part ending.........*/
+
+  /* ...........Product_Information part starting.........  */
+  .common_head h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  .common_head p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .right_side {
+    margin-top: 20px;
+    gap: 14px;
+  }
+  .discription {
+    gap: 10px;
+  }
+  .discription .tik {
+    width: 32px;
+  }
+  .discription .points {
+    font-size: 15px;
+  }
+  /* ............Product_Information part ending.......*/
+
+  /* ............Efficiency part starting.........  */
+  #Efficiency {
+    padding-top: 60px;
+  }
+  .Efficiency_pic {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 14px;
+  }
+
+  /* ...........Efficiency part ending.........  */
+
+  /* ...........Accessories part starting........*/
+  .Golf_bag_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Golf_bag_div .Golf_bag_head {
+    font-size: 44px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+  .Golf_bag_details_div {
+    gap: 14px;
+  }
+  .Golf_bag_details {
+    gap: 10px;
+  }
+  .Golf_bag_details .tik {
+    width: 32px;
+  }
+  .Golf_bag_details .points {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .accessoriesImages {
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* ...........Accessories part ending.........  */
+
+  /* ...........Shopping_Rack part starting.......*/
+  .Shopping_Rack_images {
+    margin-left: 0;
+    padding-bottom: 307px;
+  }
+  .comming_soon {
+    font-size: 21px;
+    font-weight: 500;
+    width: 100%;
+    height: 74px;
+    margin-top: 34px;
+  }
+  .Shopping_Rack_images .imgOne {
+    width: 80%;
+    top: 315px;
+  }
+  .Shopping_Rack_images .imgTwo {
+    width: 80%;
+    margin-top: 20px;
+  }
+  /* ...........Shopping_Rack part ending.........*/
+
+  /* ...............Gallery part starting..........*/
+  #Gallery {
+    padding-top: 46px;
+  }
+  .scooterImg {
+    margin-top: 40px;
+  }
+  .gallary_buttons {
+    font-size: 25px;
+    width: 90%;
+    height: 74px;
+    margin: 6px auto;
+  }
+  /* ...............Gallery part ending..........   */
+
+  /* ...............Colors part starting..........   */
+  #colors {
+    padding-bottom: 94px;
+  }
+  .sliderNavOptions {
+    display: none;
+  }
+  .color_prevArr {
+    top: 102%;
+    left: 14%;
+  }
+  .color_nextArr {
+    top: 102%;
+    right: 14%;
+  }
+
+  /* ...............Colors part ending.......... */
+
+  /* .............Testimonials part starting.....*/
+  #Testimonials {
+    padding-top: 32px;
+    padding-bottom: 90px;
+  }
+  .Testimonials_card_img {
+    width: 100%;
+  }
+  .prevArr {
+    top: 380px;
+    left: 10%;
+  }
+  .nextArr {
+    top: 380px;
+    right: 10%;
+  }
+  /* .............Testimonials part ending.........*/
+  /* .............Subscribe part starting..........*/
+  #Subscribe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .subInputButton {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subInputButton input {
+    font-size: 18px;
+    width: 100%;
+    padding: 18px 15px;
+  }
+  .subInputButton button {
+    width: 100%;
+    padding: 10px 0;
+  }
+  /* .............Subscribe part ending..........*/
+
+  /* .............Footer part starting..........*/
+
+  .footer_options_div {
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutDiv .about_bot_options {
+    gap: 10px;
+    margin-top: 18px;
+    align-items: center;
+  }
+  .aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_bg {
+    width: 45%;
+    bottom: 41px;
+  }
+  #footer {
+    padding-top: 40px;
+  }
+  /* .............Footer part ending..........*/
+}
+/* .................................................
+..................................................
+.................................................
+.................................................. */
+
+/* ..................for Md device.................*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* ...........navbar part starting.........  */
+  .main_nav .logo_img {
+    width: 52px;
+  }
+  .fa-solid,
+  .fas {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .nav_menus {
+    margin-top: 25px;
+  }
+  .main_nav .nav_menus ul {
+    gap: 48px;
+    align-items: center;
+  }
+  .nav_menus .menu_buttons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .nav_menus .menu_buttons .sign_in {
+    width: 107px;
+    height: 44px;
+  }
+  .nav_menus .menu_buttons .sign_up {
+    width: 107px;
+    height: 44px;
+  }
+  /* ...........navbar part ending.........  */
+
+  /* ...........banner part starting.........  */
+  #banner {
+    padding-top: 330px;
+  }
+  .banner_image {
+    display: none;
+  }
+
+  .xm_banner_image {
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 84%;
+    right: 0;
+  }
+
+  .banner_div {
+    margin-top: 27%;
+  }
+  .banner_div h1 {
+    width: 100%;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .banner_div h1 span {
+    font-size: 48px;
+    display: block;
+  }
+  .borderBar {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .banner_div p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .banner_bottom_side {
+    gap: 40px;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 28px;
+  }
+  .button {
+    width: 194px;
+    border-radius: 12px;
+  }
+  .banner_bottom_side .watch_videos {
+    gap: 46px;
+    width: 212px;
+  }
+  /* ...........banner part ending.........*/
+
+  /* ...........counter part starting.........*/
+  #counter {
+    padding-bottom: 56px;
+  }
+  .counter_single_box {
+    width: 90%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  .last_box {
+    width: 90%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  /* ...........counter part ending.........*/
+
+  /* ...........Product_Information part starting.........  */
+  .common_head h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  .common_head p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .right_side {
+    margin-top: 20px;
+    gap: 14px;
+  }
+  .discription {
+    gap: 10px;
+  }
+  .discription .tik {
+    width: 32px;
+  }
+  .discription .points {
+    font-size: 15px;
+  }
+  /* ............Product_Information part ending.......*/
+
+  /* ............Efficiency part starting.........  */
+  #Efficiency {
+    padding-top: 60px;
+  }
+  .Efficiency_pic {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 14px;
+  }
+
+  /* ...........Efficiency part ending.........  */
+
+  /* ...........Accessories part starting........*/
+  .Golf_bag_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Golf_bag_div .Golf_bag_head {
+    font-size: 44px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+  .Golf_bag_details_div {
+    gap: 14px;
+  }
+  .Golf_bag_details {
+    gap: 10px;
+  }
+  .Golf_bag_details .tik {
+    width: 32px;
+  }
+  .Golf_bag_details .points {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .accessoriesImages {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  /* ...........Accessories part ending.........  */
+
+  /* ...........Shopping_Rack part starting.......*/
+  .Shopping_Rack_images {
+    margin-left: 0;
+    padding-bottom: 307px;
+  }
+  .comming_soon {
+    font-size: 21px;
+    font-weight: 500;
+    width: 100%;
+    height: 74px;
+    margin-top: 34px;
+  }
+  .Shopping_Rack_images .imgOne {
+    width: 70%;
+    top: 288px;
+  }
+  .Shopping_Rack_images .imgTwo {
+    width: 60%;
+    margin-top: 24px;
+    padding-bottom: 130px;
+  }
+  /* ...........Shopping_Rack part ending.........*/
+
+  /* ...............Gallery part starting..........*/
+  #Gallery {
+    padding-top: 46px;
+  }
+  .scooterImg {
+    margin-top: 40px;
+  }
+  .gallary_buttons {
+    font-size: 25px;
+    width: 90%;
+    height: 74px;
+    margin: 6px auto;
+  }
+  /* ...............Gallery part ending..........   */
+
+  /* ...............Colors part starting..........   */
+  #colors {
+    padding-bottom: 94px;
+  }
+  .sliderNavOptions {
+    display: none;
+  }
+  .color_prevArr {
+    top: 102%;
+    left: 14%;
+  }
+  .color_nextArr {
+    top: 102%;
+    right: 14%;
+  }
+
+  /* ...............Colors part ending.......... */
+
+  /* .............Testimonials part starting.....*/
+  #Testimonials {
+    padding-top: 32px;
+    padding-bottom: 90px;
+  }
+  .Testimonials_card_img {
+    width: 100%;
+  }
+  .prevArr {
+    top: 380px;
+    left: 10%;
+  }
+  .nextArr {
+    top: 380px;
+    right: 10%;
+  }
+  /* .............Testimonials part ending.........*/
+  /* .............Subscribe part starting..........*/
+  #Subscribe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .subInputButton {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subInputButton input {
+    font-size: 18px;
+    width: 100%;
+    padding: 18px 15px;
+  }
+  .subInputButton button {
+    width: 100%;
+    padding: 10px 0;
+  }
+  /* .............Subscribe part ending..........*/
+
+  /* .............Footer part starting..........*/
+
+  .footer_options_div {
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutDiv .about_bot_options {
+    gap: 10px;
+    margin-top: 18px;
+    align-items: center;
+  }
+  .aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_bg {
+    width: 45%;
+    bottom: 41px;
+  }
+  #footer {
+    padding-top: 40px;
+  }
+  /* .............Footer part ending..........*/
+}
+
+/* .................................................
+..................................................
+.................................................
+.................................................. */
+
+/* ..................for lg device.................*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* ...........navbar part starting.........  */
+  .main_nav .logo_img {
+    width: 52px;
+  }
+  .fa-solid,
+  .fas {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .nav_menus {
+    margin-top: 25px;
+  }
+  .main_nav .nav_menus ul {
+    gap: 48px;
+    align-items: center;
+  }
+  .nav_menus .menu_buttons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .nav_menus .menu_buttons .sign_in {
+    width: 107px;
+    height: 44px;
+  }
+  .nav_menus .menu_buttons .sign_up {
+    width: 107px;
+    height: 44px;
+  }
+  /* ...........navbar part ending.........  */
+
+  /* ...........banner part starting.........  */
+  #banner {
+    padding-top: 330px;
+  }
+  .banner_image {
+    display: none;
+  }
+
+  .xm_banner_image {
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 84%;
+    right: 0;
+  }
+
+  .banner_div {
+    margin-top: 40%;
+  }
+  .banner_div h1 {
+    width: 100%;
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .banner_div h1 span {
+    font-size: 48px;
+    display: block;
+  }
+  .borderBar {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  .banner_div p {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .banner_bottom_side {
+    gap: 40px;
+    margin-top: 32px;
+    margin-bottom: 28px;
+    justify-content: center;
+  }
+  .button {
+    width: 194px;
+    border-radius: 12px;
+  }
+  .banner_bottom_side .watch_videos {
+    gap: 46px;
+    width: 212px;
+  }
+  /* ...........banner part ending.........*/
+
+  /* ...........counter part starting.........*/
+  #counter {
+    padding-bottom: 56px;
+  }
+  .counter_single_box {
+    width: 90%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  .last_box {
+    width: 90%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  /* ...........counter part ending.........*/
+
+  /* ...........Product_Information part starting.........  */
+  .common_head h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  .common_head p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .right_side {
+    margin-top: 20px;
+    gap: 14px;
+  }
+  .discription {
+    gap: 10px;
+  }
+  .discription .tik {
+    width: 32px;
+  }
+  .discription .points {
+    font-size: 15px;
+  }
+  /* ............Product_Information part ending.......*/
+
+  /* ............Efficiency part starting.........  */
+  #Efficiency {
+    padding-top: 60px;
+  }
+  .Efficiency_pic {
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 14px;
+  }
+
+  /* ...........Efficiency part ending.........  */
+
+  /* ...........Accessories part starting........*/
+  .Golf_bag_div {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Golf_bag_div .Golf_bag_head {
+    font-size: 44px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+  .Golf_bag_details_div {
+    gap: 14px;
+  }
+  .Golf_bag_details {
+    gap: 10px;
+  }
+  .Golf_bag_details .tik {
+    width: 32px;
+  }
+  .Golf_bag_details .points {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .accessoriesImages {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .accessoriesImages .imgOne,
+  .imgTwo {
+    width: 80%;
+  }
+  /* ...........Accessories part ending.........  */
+
+  /* ...........Shopping_Rack part starting.......*/
+  .Shopping_Rack_images {
+    margin-left: 0;
+    padding-bottom: 307px;
+  }
+  .comming_soon {
+    font-size: 21px;
+    font-weight: 500;
+    width: 100%;
+    height: 74px;
+    margin-top: 34px;
+  }
+  .Shopping_Rack_images .imgOne {
+    width: 50%;
+    top: 216px;
+  }
+  .Shopping_Rack_images .imgTwo {
+    width: 45%;
+    margin-left: 240px;
+    margin-top: 20px;
+  }
+  /* ...........Shopping_Rack part ending.........*/
+
+  /* ...............Gallery part starting..........*/
+  #Gallery {
+    padding-top: 46px;
+  }
+  .scooterImg {
+    margin-top: 40px;
+  }
+  .gallary_buttons {
+    font-size: 25px;
+    width: 90%;
+    height: 74px;
+    margin: 6px auto;
+  }
+  /* ...............Gallery part ending..........   */
+
+  /* ...............Colors part starting..........   */
+  #colors {
+    padding-bottom: 94px;
+  }
+  .sliderNavOptions {
+    display: none;
+  }
+  .color_prevArr {
+    top: 102%;
+    left: 14%;
+  }
+  .color_nextArr {
+    top: 102%;
+    right: 14%;
+  }
+
+  /* ...............Colors part ending.......... */
+
+  /* .............Testimonials part starting.....*/
+  #Testimonials {
+    padding-top: 32px;
+    padding-bottom: 90px;
+  }
+  .Testimonials_card_img {
+    width: 100%;
+  }
+  .prevArr {
+    top: 380px;
+    left: 10%;
+  }
+  .nextArr {
+    top: 380px;
+    right: 10%;
+  }
+  /* .............Testimonials part ending.........*/
+  /* .............Subscribe part starting..........*/
+  #Subscribe {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .subInputButton {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subInputButton input {
+    font-size: 18px;
+    width: 100%;
+    padding: 18px 15px;
+  }
+  .subInputButton button {
+    width: 100%;
+    padding: 10px 0;
+  }
+  /* .............Subscribe part ending..........*/
+
+  /* .............Footer part starting..........*/
+
+  .footer_options_div {
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutDiv .about_bot_options {
+    gap: 10px;
+    margin-top: 18px;
+    align-items: center;
+  }
+  .aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_bg {
+    width: 45%;
+    bottom: 41px;
+  }
+  #footer {
+    padding-top: 40px;
+  }
+  /* .............Footer part ending..........*/
+}
+
+/* .................................................
+..................................................
+.................................................
+.................................................. */
+
+/* ..................for xl device.................*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* ...........navbar part starting.........  */
+  .banner_div h1 {
+    width: 489px;
+    font-size: 80px;
+  }
+  .banner_div h1 span {
+    font-size: 75px;
+  }
+  .borderBar {
+    margin-top: 53px;
+    margin-bottom: 52px;
+    width: 450px;
+  }
+  .button {
+    width: 180px;
+  }
+  .banner_bottom_side {
+    gap: 139px;
+    margin-bottom: 85px;
+    justify-content: center;
+  }
+  .banner_bottom_side .watch_videos {
+    gap: 113px;
+    width: 280px;
+  }
+  /* ...........navbar part ending.........  */
+
+  /* ...........banner part starting.........  */
+  .banner_image {
+    width: 528px;
+  }
+
+  /* ...........banner part ending.........*/
+
+  /* ...........counter part starting.........*/
+  /* #counter {
+    padding-bottom: 56px;
+  } */
+  .counter_items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .counter_single_box {
+    width: 254px;
+  }
+  .last_box {
+    width: 254px;
+  }
+  /* ...........counter part ending.........*/
+
+  /* ...........Product_Information part starting.........  */
+  .right_side {
+    margin-top: 54px;
+    gap: 18px;
+  }
+  .discription .tik {
+    width: 36px;
+  }
+
+  /* ............Product_Information part ending.......*/
+
+  /* ............Efficiency part starting.........  */
+
+  .Efficiency_pic {
+    width: 100%;
+  }
+
+  /* ...........Efficiency part ending.........  */
+
+  /* ...........Accessories part starting........*/
+  .Golf_bag_div .Golf_bag_head {
+    font-size: 45px;
+    margin-top: 40px;
+    width: 327px;
+  }
+
+  Golf_bag_details_div {
+    margin-top: 54px;
+    gap: 18px;
+  }
+  .Golf_bag_details .tik {
+    width: 32px;
+  }
+  .Golf_bag_details .points {
+    padding-top: 4px;
+  }
+  .accessoriesImages {
+    margin-top: 61px;
+  }
+  /* ...........Accessories part ending.........  */
+
+  /* ...........Shopping_Rack part starting.......*/
+  .Shopping_Rack_images .imgOne {
+    width: 380px;
+    top: 60px;
+  }
+  .Shopping_Rack_images .imgTwo {
+    width: 270px;
+    margin-top: 139px;
+  }
+  /* ...........Shopping_Rack part ending.........*/
+
+  /* ...............Gallery part starting..........*/
+  #Gallery {
+    padding-top: 80px;
+  }
+  .build_qualityImg {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .scooterImg {
+    margin-top: 214px;
+  }
+  .gallary_buttons {
+    width: 100%;
+  }
+  /* ...............Gallery part ending..........   */
+
+  /* ...............Colors part starting..........   */
+  #colors {
+    padding-top: 74px;
+    padding-bottom: 244px;
+  }
+  .sliderNavOptions {
+    bottom: -158px;
+  }
+  .sliderNavOptions .slider_nav_pic {
+    width: 206px;
+  }
+
+  /* ...............Colors part ending.......... */
+
+  /* .............Testimonials part starting.....*/
+  #Testimonials {
+    padding-top: 50px;
+    padding-bottom: 140px;
+  }
+  .Testimonials_card_img .card_top p {
+    font-size: 18px;
+    width: 93%;
+  }
+  .Testimonials_card_img {
+    width: 100%;
+  }
+
+  .Testimonials_card_img {
+    width: 100%;
+    /* height: 366px; */
+  }
+  .prevArr {
+    top: 420px;
+    left: 44%;
+  }
+  .nextArr {
+    top: 420px;
+    right: 44%;
+  }
+
+  /* .............Testimonials part ending.........*/
+  /* .............Subscribe part starting..........*/
+  #Subscribe {
+    padding-top: 51px;
+    padding-bottom: 97px;
+  }
+  /* .............Subscribe part ending..........*/
+
+  /* .............Footer part starting..........*/
+  .footer_bg {
+    width: 47%;
+    bottom: 71px;
+  }
+  /* .............Footer part ending..........*/
 }

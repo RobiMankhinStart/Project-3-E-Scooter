@@ -261,6 +261,9 @@ img {
   top: 0;
   right: 0;
 }
+.xm_banner_image {
+  display: none;
+}
 /* ..........banner end........... */
 
 /* ..............counter part end..........   */
@@ -568,6 +571,7 @@ img {
   font-weight: 400;
   font-family: var(--BrandFont);
   /* width: 304px; */
+  width: 90%;
 }
 .star_div {
   display: flex;
@@ -629,14 +633,14 @@ img {
   font-weight: 400;
   font-family: var(--BrandFont);
   color: #fbfbfb;
+  border: 1px solid #fbfbfb;
   background-color: var(--BrandColor);
-  width: 196px;
+  width: 194px;
   display: flex;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 26px 57; */
   border-radius: 10px;
   transition: all 0.3s linear;
 }
@@ -695,6 +699,10 @@ img {
   justify-content: center;
   background-color: #fafafc;
   border-radius: 50%;
+  transition: all 0.2s linear;
+}
+.FootericonsDiv .social_icon:hover {
+  transform: scale(110%);
 }
 .copyRightMessage {
   font-size: 16px;
